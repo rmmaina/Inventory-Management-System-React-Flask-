@@ -60,4 +60,4 @@ Database: Working
 ---
 
 ## Author
-Inventory Project
+Robert Maina
