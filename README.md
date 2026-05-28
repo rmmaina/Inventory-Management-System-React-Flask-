@@ -1,30 +1,32 @@
 # Inventory Management System (React + Flask)
 
-## Project Overview
+## Overview
 This is a full-stack Inventory Management System built using:
 
 - Frontend: React (Vite)
 - Backend: Flask (Python)
 - Database: SQLite
-- Authentication: JWT
+- Authentication: JWT-based authentication
+
+The project demonstrates CRUD operations, authentication, and relational database design using Flask SQLAlchemy.
 
 ---
 
 ## Features
 
 ### Authentication
-- User Registration
-- User Login
-- JWT Authentication
-- Protected Routes
+- User registration
+- User login
+- JWT authentication
+- Protected routes
 
 ### Inventory Management
-- Create Products
-- Read Products
-- Update Products
-- Delete Products
+- Create products
+- Read products
+- Update products
+- Delete products
 
-### Relationships
+### Database Relationships
 - One-to-Many: Category → Products
 - Many-to-Many: Users ↔ Products
 
@@ -32,72 +34,30 @@ This is a full-stack Inventory Management System built using:
 
 ## Tech Stack
 
-### Frontend
+Frontend:
 - React
-- React Router
+- React Router DOM
 - Axios
 
-### Backend
+Backend:
 - Flask
 - Flask SQLAlchemy
 - Flask-JWT-Extended
 - Flask-Migrate
+- Flask-CORS
 
-### Database
+Database:
 - SQLite
 
 ---
 
-## Project Structure
+## Project Status
 
-inventory_project/
-│
-├── backend/
-│ ├── app.py
-│ ├── models/
-│ ├── routes/
-│ ├── extensions.py
-│
-├── frontend/
-│ ├── src/
-│ ├── pages/
-│ ├── components/
-
+Backend: Working  
+Frontend: In progress (routing debugging)  
+Database: Working  
 
 ---
 
-## How to Run Project
-
-### Backend
-```bash
-cd backend
-python app.py
-
-#Frontend
-
-cd frontend
-npm install
-npm run dev
-
-Authentication Flow
-User registers
-User logs in
-JWT token is generated
-Token stored in localStorage
-Protected routes accessed using token
-API Endpoints
-Auth
-POST /api/auth/register
-POST /api/auth/login
-Products
-GET /api/products
-POST /api/products
-PUT /api/products/<id>
-DELETE /api/products/<id>
-Current Status
-React frontend: Debugging routing issue
-Backend: Running
-Database: Working
-
-#Author
-Robert Maina
+## Author
+Inventory Project
