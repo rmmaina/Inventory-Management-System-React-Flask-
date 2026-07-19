@@ -1,7 +1,7 @@
-# Inventory Management System (React + Flask)
+# Full-stack Inventory Management System with JWT Authentication
 
 ## Overview
-This is a full-stack Inventory Management System built using:
+Full-stack inventory management system with JWT authentication, built with React, Flask, and SQLAlchemy.
 
 - Frontend: React (Vite)
 - Backend: Flask (Python)
